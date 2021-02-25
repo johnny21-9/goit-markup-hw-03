@@ -41,6 +41,9 @@ ul {
   font-size: 26px;
   line-height: 1.17em;
 }
+.logo:link {
+  color: var(--text-black);
+}
 .logo span {
   color: var(--light-blue);
 }
