@@ -42,7 +42,7 @@ ul {
   line-height: 1.17em;
 }
 .logo:link {
-  color: var(--text-black);
+  color: inherit;
 }
 .logo span {
   color: var(--light-blue);
