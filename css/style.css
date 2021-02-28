@@ -76,6 +76,9 @@ ul {
 }
 .hero {
   background-color: var(--background);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  min-height: 600px;
 }
 .hero h1 {
   font-size: 44px;
@@ -95,6 +98,9 @@ ul {
   background-color: var(--light-blue);
   border: none;
   letter-spacing: 0.02em;
+}
+.feautures {
+  padding-top: 94px;
 }
 .feautures h3 {
   font-weight: 700;
@@ -143,12 +149,16 @@ ul {
 }
 .team {
   background-color: var(--light-grey);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team p {
   font-weight: 400;
   color: var(--text-grey);
 }
 footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--background);
 }
 footer .logo {
@@ -185,6 +195,10 @@ footer a.logo {
 .filter-buttons button.active {
   color: var(--text-white);
   background-color: var(--light-blue);
+}
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .portfolio-card h3 {
   font-weight: 700;
@@ -250,11 +264,6 @@ header {
   padding-left: 15px;
   padding-right: 15px;
 }
-.hero .container {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  min-height: 600px;
-}
 .hero h1 {
   width: 696px;
   margin-left: auto;
@@ -269,9 +278,6 @@ header {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-}
-.feautures .container {
-  padding-top: 94px;
 }
 .feautures-list {
   display: flex;
@@ -288,13 +294,13 @@ header {
 .feauture h3 {
   margin-bottom: 10px;
 }
+.doing {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .doing h2 {
   margin: 0;
   margin-bottom: 50px;
-}
-.doing .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .doing-cards {
   display: flex;
@@ -303,10 +309,6 @@ header {
 .doing li {
   margin-left: 30px;
   flex-basis: calc(100% / 3 - 30px);
-}
-.team .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .team h2 {
   margin: 0;
@@ -336,10 +338,6 @@ header {
   margin: 0;
   margin-top: 10px;
 }
-footer .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 footer .logo > p {
   margin: 0;
 }
@@ -353,11 +351,6 @@ footer .container > .logo {
 address a {
   display: inline-block;
   line-height: 24px;
-}
-
-.portfolio .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .filter-buttons {
   display: flex;
